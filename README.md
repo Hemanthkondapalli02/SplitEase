@@ -1,4 +1,4 @@
-🧾 SplitEase – Smart Bill Splitter
+**🧾 SplitEase – Smart Bill Splitter**
 
 SplitEase is a modern, responsive bill-splitting web application that makes it easy to divide expenses among friends. It supports equal and custom splits, GST/tip calculation, UPI QR generation, QR scanning, and calculation history — all in a clean, minimal UI.
 
