@@ -1,116 +1,29 @@
-**🧾 SplitEase – Smart Bill Splitter**
-
-SplitEase is a modern, responsive bill-splitting web application that makes it easy to divide expenses among friends. It supports equal and custom splits, GST/tip calculation, UPI QR generation, QR scanning, and calculation history — all in a clean, minimal UI.
-
-🚀 Features
-💰 Smart Bill Splitting
-
-Equal split among multiple people
-
-Custom amount per person
-
-Automatic rounding options:
-
-Exact
-
-Round to nearest ₹1
-
-Round up
-
-Round down
-
-🧾 Category-Based Billing
-
-Add preset categories (Food, Drinks, Travel, etc.)
-
-Create custom categories with icons
-
-Auto-sync category totals with bill amount
-
-➕ Extras & Options
-
-Tip calculation (10%, 15%, 18%, 20%, Custom)
-
-GST/Tax toggle with custom percentage
-
-Real-time calculation preview
-
-🏦 UPI Payment Integration
-
-Generate UPI QR code
-
-Share QR as image
-
-Copy UPI ID
-
-WhatsApp share integration
-
-Scan others' UPI QR codes using camera
-
-🕐 History Management
-
-Stores last 50 calculations
-
-Reload previous bills
-
-Delete individual records
-
-Clear all history
-
-🌗 Dark / Light Mode
-
-Fully theme-based UI
-
-Theme preference saved in localStorage
-
-📱 Progressive Web App (PWA)
-
-Service worker support
-
-Installable on mobile
-
-Offline-ready (if configured with sw.js)
-
-🛠️ Tech Stack
-
-HTML5
-
-CSS3 (Custom Theming with Variables)
-
-Vanilla JavaScript (ES6+)
-
-QR Code Generation via qrcode.js
-
-QR Scanning via:
-
-BarcodeDetector API
-
-Fallback to jsQR
-
-LocalStorage for persistence
-
-No frameworks. No backend. Fully client-side.
-
-📷 Screens Overview
-
-Split Bill page
-
-UPI QR Generator
-
-QR Scanner
-
-History Page
-
-Share Bill Image Generator
-
-🔐 Data Storage
-
-All data is stored locally in the browser using localStorage:
-
-Theme preference
-
-Bank/UPI details
-
-Bill history
-
-No external server or database is used.
+**SplitEase – Smart Bill Splitter**
+SplitEase is a modern, responsive bill-splitting web application designed to simplify expense sharing among friends and groups. The application enables users to divide bills equally or through custom splits while supporting advanced features such as GST/tax calculation, tip selection, UPI QR payment generation, QR code scanning, and history tracking.
+**Key Features**
+•	Equal and Custom Bill Splitting
+•	Category-based expense allocation with preset and custom icons
+•	Tip calculation (10%, 15%, 18%, 20%, or custom)
+•	GST/Tax inclusion with customizable percentage
+•	Rounding options (Exact, Round to nearest ₹1, Round up, Round down)
+•	UPI QR Code generation for seamless payments
+•	QR Code scanner using camera for reading UPI details
+•	WhatsApp sharing and clipboard copy options
+•	History management (stores last 50 calculations)
+•	Dark and Light theme support with local storage persistence
+•	Progressive Web App (PWA) support with Service Worker integration
+**Technology Stack**
+•	HTML5 for structure
+•	CSS3 with custom theme variables for styling
+•	Vanilla JavaScript (ES6+) for application logic
+•	QRCode.js for QR generation
+•	BarcodeDetector API and jsQR for QR scanning
+•	LocalStorage for data persistence
+**Data & Security**
+All user data, including bill history, UPI details, and theme preferences, are stored locally in the browser using LocalStorage. No backend server or external database is used, ensuring user privacy and lightweight performance.
+**Use Cases**
+•	Dining out with friends
+•	Trip and travel expense sharing
+•	Roommate bill management
+•	Group event cost splitting
+•	Fuel and transport sharing
